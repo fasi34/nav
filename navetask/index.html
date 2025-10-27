@@ -1,0 +1,388 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NAV</title>
+    <link rel="stylesheet" href="assest/bootstrap.css">
+    <link rel="stylesheet" href="assest/css/style.css">
+    <link rel="stylesheet" href="assest/css/responsive.css">
+    <link rel="stylesheet" href="assest/fontawsome">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+            <button class="toogle_button" onclick="toggleTheme()"><img src="assest/images/Logo.png" alt=""></button>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <div class="line_button">
+                    <img src="assest/images/Group 8.svg" alt="">
+                </div>
+
+                <div class="search-wrapper">
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="Search creators..." />
+                </div>
+
+                <div class="navbar-nav ms-auto ">
+
+
+                    <!-- model one -->
+
+                    <button class=" creat_button " data-bs-target="#exampleModalToggle" data-bs-toggle="modal"> 
+                Create 
+                </button>
+
+
+                    <!-- end -->
+
+
+
+
+
+
+                </div>
+
+
+            </div>
+
+            <div class="wraperbox">
+                <div class="bellbox">
+                    <img src="assest/images/bell.svg" alt="">
+                </div>
+                <div class="bellbox">
+                    <img src="assest/images/message.svg" alt="">
+                </div>
+                <div class="bellbox laptop_display">
+                    <img src="assest/images/Ellipse 9.svg" alt="">
+                </div>
+
+
+                <div data-bs-target="#exampleModalToggle" data-bs-toggle="modal" class="bellbox avatar">
+                    <img src="assest/images/Ellipse 9.svg" alt="">
+                </div>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- model one -->
+
+    <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+        <button type="button" class=" close_button" data-bs-dismiss="modal" aria-label="Close">
+            <img src="assest/images/Group 7.svg" alt="">
+        </button>
+        <div class="modal-dialog modal-dialog-centered">
+
+            <div class="modal-content login-card">
+
+
+                <div>
+
+                    <h5>Sign in to Core 2.0</h5>
+                    <div class="formcontainer">
+                        <button class="google-btn">
+                            <img src="assest/images/google icon.svg" alt=""> Sign in with Google
+                         </button>
+
+                        <div class="divider">Or sign in with email</div>
+
+                        <form>
+                            <div class="input-group">
+                                <label class="email" for="email">Email</label>
+                                <input type="email" id="email" placeholder="designer@example.com" required />
+                            </div>
+
+                            <div class="input-group">
+                                <label class="password" for="password">Password</label>
+                                <input type="password" id="password" placeholder="••••••••" required />
+                                <label class="forget" for="forget">
+                                     <div data-bs-target="#exampleModalToggle3" data-bs-toggle="modal" class="signup-text">
+                               Forgot Password 
+                            </div>
+                                </label>
+                            </div>
+
+
+
+                            <button type="submit" class="sign-in-btn">Sign in</button>
+                            <div data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" class="signup-text">
+                                Need an account? <a class="sing" href="#">Sign up</a>
+                            </div>
+                        </form>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- end -->
+    <!-- 2model -->
+    <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+        <button type="button" class=" close_button" data-bs-dismiss="modal" aria-label="Close">
+            <img src="assest/images/Group 7.svg" alt="">
+        </button>
+        <div class="modal-dialog modal-dialog-centered">
+
+            <div class="modal-content login-card">
+
+
+                <div>
+
+                    <h5>Create an account</h5>
+                    <div class="formcontainer">
+                        <button class="google-btn">
+                            <img src="assest/images/google icon.svg" alt=""> Sign in with Google
+                         </button>
+
+                        <div class="divider">Or sign in with email</div>
+
+                        <form>
+                            <div class="input-group">
+                                <label class="email" for="email">Email</label>
+                                <input type="email" id="email" placeholder="designer@example.com" required />
+                            </div>
+
+                            <div class="input-group">
+                                <label class="email" for="password">Password</label>
+                                <input type="password" id="password" placeholder="••••••••" required />
+                            </div>
+
+
+
+                            <button type="submit" class="sign-in-btn ">Creat an account</button>
+
+                            <div data-bs-target="#exampleModalToggle" data-bs-toggle="modal" class="signup-text">
+                                Need an account? <a class="sing" href="#">Sign in</a>
+                            </div>
+                        </form>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- end -->
+    <!-- 3 model -->
+    <div class="modal fade" id="exampleModalToggle3" aria-hidden="true" aria-labelledby="exampleModalToggleLabel3" tabindex="-1">
+        <button type="button" class=" close_button" data-bs-dismiss="modal" aria-label="Close">
+            <img src="assest/images/Group 7.svg" alt="">
+        </button>
+        <div class="modal-dialog modal-dialog-centered">
+
+            <div class="modal-content login-card">
+
+
+                <div>
+
+                    <h5>Reset password</h5>
+                    <div class="formcontainer">
+
+
+
+                        <form>
+                            <div class="input-group">
+                                <label class="email" for="email">Email</label>
+                                <input type="email" id="email" placeholder="designer@example.com" required />
+                            </div>
+
+
+
+
+
+                            <button type="submit" class="sign-in-btn ">Check your inbok</button>
+
+                            <div data-bs-target="#exampleModalToggle" data-bs-toggle="modal" class="signup-text">
+                                Have you Password?<a class="sing" href="#"> login</a>
+                            </div>
+                        </form>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- end -->
+
+
+
+
+
+
+    <!--Avatar model one -->
+
+    <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+        <button type="button" class=" close_button" data-bs-dismiss="modal" aria-label="Close">
+            <img src="assest/images/Group 7.svg" alt="">
+        </button>
+        <div class="modal-dialog modal-dialog-centered">
+
+            <div class="modal-content login-card">
+
+
+                <div>
+
+                    <h5>Sign in to Core 2.0</h5>
+                    <div class="formcontainer">
+                        <button class="google-btn">
+                            <img src="assest/images/google icon.svg" alt=""> Sign in with Google
+                         </button>
+
+                        <div class="divider">Or sign in with email</div>
+
+                        <form>
+                            <div class="input-group">
+                                <label class="email" for="email">Email</label>
+                                <input type="email" id="email" placeholder="designer@example.com" required />
+                            </div>
+
+                            <div class="input-group">
+                                <label class="password" for="password">Password</label>
+                                <input type="password" id="password" placeholder="••••••••" required />
+                                <label class="forget" for="forget">
+                                     <div data-bs-target="#exampleModalToggle3" data-bs-toggle="modal" class="signup-text">
+                               Forgot Password 
+                            </div>
+                                </label>
+                            </div>
+
+
+
+                            <button type="submit" class="sign-in-btn">Sign in</button>
+                            <div data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" class="signup-text">
+                                Need an account? <a class="sing" href="#">Sign up</a>
+                            </div>
+                        </form>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- end -->
+    <!-- 2model -->
+    <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+        <button type="button" class=" close_button" data-bs-dismiss="modal" aria-label="Close">
+            <img src="assest/images/Group 7.svg" alt="">
+        </button>
+        <div class="modal-dialog modal-dialog-centered">
+
+            <div class="modal-content login-card">
+
+
+                <div>
+
+                    <h5>Create an account</h5>
+                    <div class="formcontainer">
+                        <button class="google-btn">
+                            <img src="assest/images/google icon.svg" alt=""> Sign in with Google
+                         </button>
+
+                        <div class="divider">Or sign in with email</div>
+
+                        <form>
+                            <div class="input-group">
+                                <label class="email" for="email">Email</label>
+                                <input type="email" id="email" placeholder="designer@example.com" required />
+                            </div>
+
+                            <div class="input-group">
+                                <label class="email" for="password">Password</label>
+                                <input type="password" id="password" placeholder="••••••••" required />
+                            </div>
+
+
+
+                            <button type="submit" class="sign-in-btn ">Creat an account</button>
+
+                            <div data-bs-target="#exampleModalToggle" data-bs-toggle="modal" class="signup-text">
+                                Need an account? <a class="sing" href="#">Sign in</a>
+                            </div>
+                        </form>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- end -->
+    <!-- 3 model -->
+    <div class="modal fade" id="exampleModalToggle3" aria-hidden="true" aria-labelledby="exampleModalToggleLabel3" tabindex="-1">
+        <button type="button" class=" close_button" data-bs-dismiss="modal" aria-label="Close">
+            <img src="assest/images/Group 7.svg" alt="">
+        </button>
+        <div class="modal-dialog modal-dialog-centered">
+
+            <div class="modal-content login-card">
+
+
+                <div>
+
+                    <h5>Reset password</h5>
+                    <div class="formcontainer">
+
+
+
+                        <form>
+                            <div class="input-group">
+                                <label class="email" for="email">Email</label>
+                                <input type="email" id="email" placeholder="designer@example.com" required />
+                            </div>
+
+
+
+
+
+                            <button type="submit" class="sign-in-btn ">Check your inbok</button>
+
+                            <div data-bs-target="#exampleModalToggle" data-bs-toggle="modal" class="signup-text">
+                                Have you Password?<a class="sing" href="#"> login</a>
+                            </div>
+                        </form>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- end -->
+
+
+
+
+    <script src="assest/bootstrap.js"></script>
+    <script>
+        function toggleTheme() {
+            document.body.classList.toggle('dark-theme');
+        }
+    </script>
+</body>
+
+</html>

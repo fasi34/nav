@@ -1,0 +1,52 @@
+@media (max-width:668px) {
+    .modal-dialog {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .login-card {
+        padding: 24px;
+        width: 334px;
+    }
+    .login-card h5 {
+        margin-bottom: 25px;
+        font-size: 24px;
+        font-weight: 600;
+        color: var(--model-text);
+    }
+    .google-btn {
+        width: 295px;
+        height: 48px;
+        gap: 8px;
+    }
+    .creat_button {
+        width: 100px;
+    }
+    .close_button {
+        top: 0%;
+        right: 0%;
+    }
+    .search-wrapper input {
+        width: 315px;
+    }
+    .navbar {
+        overflow: hidden;
+    }
+    .forget {
+        left: 59%;
+        bottom: 53%;
+    }
+}
+
+@media (max-width:1023px) {
+    .navbar-toggler {
+        display: none;
+    }
+    .avatar {
+        display: block;
+        display: flex !important;
+    }
+    .laptop_display {
+        display: none;
+    }
+}
